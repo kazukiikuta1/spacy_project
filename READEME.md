@@ -4,7 +4,48 @@
 
 ## 依存関係ラベルの説明
 
+### 21. **nummod** (数詞修飾)
+- **略さない言い方**: Numeric Modifier
+- **意味**: 名詞を修飾する数詞や数量を示します。
+- **例**: *I have two apples.* → `two` ("apples" を修飾)
+
+### 22. **poss** (所有格修飾)
+- **略さない言い方**: Possessive Modifier
+- **意味**: 名詞を修飾する所有格を示します。
+- **例**: *John's book is interesting.* → `John's` ("book" を修飾)
+
+### 23. **expl** (形式主語)
+- **略さない言い方**: Expletive
+- **意味**: 形式主語（「そこに」「それは」など）を示します。
+- **例**: *There is a book on the table.* → `There` (形式主語)
+
+### 24. **parataxis** (並列構造)
+- **略さない言い方**: Parataxis
+- **意味**: 並列的な関係で結ばれた節や文を示します。
+- **例**: *I came, I saw, I conquered.* → `I saw` (並列構造の一部)
+
+### 25. **csubj** (節主語)
+- **略さない言い方**: Clausal Subject
+- **意味**: 動詞の主語が節である場合を示します。
+- **例**: *What he said is true.* → `What he said` (節主語)
+
+### 26. **csubjpass** (受動態節主語)
+- **略さない言い方**: Clausal Passive Subject
+- **意味**: 受動態で、主語が節である場合を示します。
+- **例**: *That he lied was believed by everyone.* → `That he lied` (受動態節主語)
+
+### 27. **auxpass** (受動態助動詞)
+- **略さない言い方**: Auxiliary Passive
+- **意味**: 受動態で使用される助動詞を示します。
+- **例**: *The book was read by her.* → `was` (受動態助動詞)
+
+### 28. **dep** (依存関係ラベル未定義)
+- **略さない言い方**: Dependent
+- **意味**: 特定の依存関係ラベルに分類されない語を示します。
+- **例**: 特定の文脈による
+
 ### 20. **npadvmod** (名詞句の副詞修飾)
+- **略さない言い方**: Noun Phrase Adverbial Modifier
 - **意味**: 名詞句が副詞のように文全体や動詞を修飾する場合を示します。
 - **例**: *Yesterday, I went to the park.* → `Yesterday` (文全体を修飾)
 
@@ -84,7 +125,7 @@
 - **意味**: 動詞や名詞を否定する語（例: not, no）。
 - **例**: *He is not happy.* → `not` ("happy" を否定)
 
-## 例文の解
+## 例文の解析
 
 ### 文: *John gave Sarah a gift.*
 | **単語** | **品詞 (POS)** | **依存関係ラベル** | **説明**                 |
